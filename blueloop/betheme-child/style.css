@@ -1,0 +1,38 @@
+/*
+Theme Name: 	TPS
+Theme URI: 		http://mariolafuente.com
+Author: 		  Mario Lafuente
+Author URI: 	http://mariolafuente.com
+Description:	Tecnología Personalizada y Soluciones TPS S.A
+Template:		betheme
+Version: 		1.6.1.1
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+/* 0.0.1 Variables
+-------------------------------------------------------------- */
+
+:root {
+    --GNC_red: #e31836;
+    --GNC_blue: blue;
+    --GNC_gray: #a1a1a1;
+    --GNC_grayDarker: #2f333a;
+
+}
+
+#Footer {
+    border-top: none;
+}
+#Footer .footer_copy{
+    border: 0;
+
+background: #182744!important; /* Old browsers */
+background: -moz-linear-gradient(top, #00acff 3%, #1e5799 3%, #182744 4%, #182744 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #00acff 3%,#1e5799 3%,#182744 4%,#182744 100%)!important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #00acff 3%,#1e5799 3%,#182744 4%,#182744 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00acff', endColorstr='#182744',GradientType=0 ); /* IE6-9 */
+}
+body:not(.template-slider) #Header {
+    max-height: 150px;
+}
